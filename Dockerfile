@@ -1,4 +1,4 @@
-FROM circleci/node:9.11.1
+FROM node:9.11.1
 # update and upgrade packages
 RUN apt-get update -yq && apt-get upgrade -yq
 
